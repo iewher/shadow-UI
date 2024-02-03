@@ -1,10 +1,9 @@
-import Banner from "@/components/banner";
-import styles from "./page.module.scss";
+import React from "react";
 
 export default function Home() {
   return (
-    <div className={styles.Page}>
-      <Banner />
+    <div>
+      <p>123</p>
     </div>
   );
 }

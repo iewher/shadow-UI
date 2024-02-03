@@ -1,11 +1,4 @@
-import type { Metadata } from "next";
-import Header from "@/components/header";
-import "./globals.scss";
-
-export const metadata: Metadata = {
-  title: "Shadow UI",
-  description: "...",
-};
+import React from "react";
 
 export default function RootLayout({
   children,
@@ -14,10 +7,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        <Header />
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
