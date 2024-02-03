@@ -2,57 +2,6 @@
   height: 100%;
   width: 100%;
   border: 1px solid green;
-
-  .Banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 32px;
-
-    h1 {
-      font-size: 60px;
-      font-weight: bold;
-    }
-
-    button {
-      height: 45px;
-      width: 150px;
-      background-color: rgb(233, 233, 233);
-      border-radius: 6px;
-      border: none;
-      transition: 0.3s;
-
-      &:hover {
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 5px;
-        cursor: pointer;
-      }
-    }
-
-    .Cards {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 30px;
-      margin-bottom: 50px;
-    }
-  }
 }
 
-.Card {
-  height: 178px;
-  width: 338px;
-  padding: 20px;
-  border-radius: 6px;
-  transition: 0.3s;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 5px;
 
-  &:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    cursor: pointer;
-  }
-
-  h5 {
-    font-size: 15px;
-  }
-}
