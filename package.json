@@ -1,5 +1,8 @@
 {
-  "name": "shadow-ui",
+  "name": "@iewher/shadow-UI",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/iewher"
+  },
   "version": "0.0.1",
   "description": "A simple template for a custom React component library",
   "scripts": {
